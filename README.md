@@ -4,8 +4,9 @@ Repositório referente aos meus aprendizados sobre tailwindcss adquiridos no cur
 
 ## 📑 Anotações
 
-[Minhas anotações](#)
+[Minhas anotações](https://github.com/luan11/learn-tailwindcss/blob/main/notes.md)
 
 ## 📌 Seções do curso
 
 - [01 - Introdução](https://github.com/luan11/learn-tailwindcss/blob/main/01-intro)
+- [02 - Conceitos Fundamentais](https://github.com/luan11/learn-tailwindcss/blob/main/02-concepts)
