@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Layout Build 🛠</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container bg-red-200 mx-auto p-4 my-4 text-red-900 border-red-900 border-2">
+		<p>Container text</p>
+	</div>
+
+	<!-- Exercise 1: Make a blue container to md devices if not, set to green -->
+	<div class="container bg-green-200 mx-auto p-4 my-4 text-green-800 border-green-800 border-2 md:bg-blue-200 md:text-blue-800 md:border-blue-800">
+		<p>It's a green container in only not <b>md</b> devices</p>
+	</div>
+
+	<!-- box-sizing -->
+	<div class="container bg-purple-700 border-2 border-purple-900 m-4 box-border p-10">
+		<p>border-box</p>
+	</div>
+
+	<div class="container bg-green-400 border-2 border-green-500 m-4 box-content p-10">
+		<p>box-content</p>
+	</div>
+
+	<!-- display -->
+	<div class="container">
+		<span class="block bg-red-300">Not block element</span>
+		<span class="block bg-red-300">Not block element</span>
+
+		<div class="bg-blue-500 inline-block">Block</div>
+		<div class="bg-blue-500 inline-block">Block</div>
+	</div>
+
+	<!-- Exercise 2: Make three divs with different colours and display then as inline in a container -->
+	<div class="container">
+		<div class="bg-red-600 inline-block">1</div>
+		<div class="bg-blue-600 inline-block">2</div>
+		<div class="bg-green-600 inline-block">3</div>
+	</div>
+
+	<!-- Exercise 3: Make a container with a fixed height with a box (bottom/right) -->
+	<div class="container h-20 w-20 bg-blue-500 relative mt-10">
+		<div class="h-10 w-10 bg-blue-200 absolute right-0 bottom-0"></div>
+	</div>
+
+	<!-- Exercise 4: Make three elements with different colours and use z-index -->
+	<div class="container relative h-20 mt-10">
+		<div class="bg-purple-200 h-20 w-20 p-6 absolute z-30"></div>
+		<div class="bg-purple-400 h-20 w-20 p-6 absolute m-5 z-20"></div>
+		<div class="bg-purple-600 h-20 w-20 p-6 absolute m-10 z-10"></div>
+	</div>
+</body>
+</html>
