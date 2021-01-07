@@ -12,3 +12,5 @@ Repositório referente aos meus aprendizados sobre tailwindcss adquiridos no cur
 - [02 - Conceitos Fundamentais](https://github.com/luan11/learn-tailwindcss/blob/main/02-concepts)
 - [03 - Construção de Layout](https://github.com/luan11/learn-tailwindcss/blob/main/03-build-layout)
 - [04 - Flexbox](https://github.com/luan11/learn-tailwindcss/blob/main/04-flexbox)
+- [05 - Grid](https://github.com/luan11/learn-tailwindcss/blob/main/05-grid)
+- [06 - Customização](https://github.com/luan11/learn-tailwindcss/blob/main/06-customization)
